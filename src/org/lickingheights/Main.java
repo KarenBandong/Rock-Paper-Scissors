@@ -13,7 +13,10 @@ public class Main {
     }
 
     public static void main(String[] args) {
+        Main instance = new Main();
         System.out.println("Let's start the game of Rock, Paper, and Scissors!");
-        while (running)
+        while (instance.running){
+            
+        }
     }
 }
